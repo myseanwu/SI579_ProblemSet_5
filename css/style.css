@@ -126,10 +126,12 @@ figure img{
     list-style-type: circle;
 }
 
-.due_time{
-    font-col:blueviolet;
-}
+
 
 .inbox{
     margin-left: 2em;
+}
+
+.due_time{
+    color:rgb(132, 0, 255);
 }
