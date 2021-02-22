@@ -102,8 +102,8 @@ function addingItem(){
         item_list.textContent = x;
 
         const item_time = document.createElement("li");
-        const y = moment(new Date()).calendar();
-        item_time.textContent = "Added:" + y;
+        const y = "Added:" + moment(new Date()).calendar();
+        item_time.textContent =  y;
         item_p.append(item_time);
 
         const dueDateInput     = document.getElementById("duedate_input");

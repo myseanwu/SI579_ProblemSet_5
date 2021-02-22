@@ -127,5 +127,9 @@ figure img{
 }
 
 .due_time{
-    color:blueviolet;
+    font-col:blueviolet;
+}
+
+.inbox{
+    margin-left: 2em;
 }
